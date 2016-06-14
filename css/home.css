@@ -1,0 +1,19 @@
+.firstBanner {
+    width: 1100px;
+    height: 405px;
+    background-color: white;
+    margin: auto;
+}
+
+.firstBanner img{
+    width: 1100px;
+    height: 405px;
+}
+
+.secondBanner {
+    width: 1100px;
+    height: 225px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+}

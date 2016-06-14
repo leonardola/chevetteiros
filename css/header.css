@@ -1,0 +1,67 @@
+/*
+ * Start Bootstrap - Logo Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 25px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.navbar{
+    background: white;
+    border-color: #ccc;
+}
+
+body{
+    background: black;
+}
+
+.navbar a:hover{
+    color: black !important;
+}
+
+.navbar li.active a{
+    color: white !important;
+}
+
+.navbar-header{
+    margin-right: 15px;
+}
+
+.navbar-brand img{
+    height: 75px;
+}
+
+.navbar-brand{
+    margin-right: 15px;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.basicWidth{
+    width: 1100px;
+}

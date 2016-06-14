@@ -1,0 +1,19 @@
+.blueText{
+    color: #34A9CA;
+}
+.centered{
+    margin: auto;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 172px;
+}
+
+#footer a{
+    color: #7d7d7d;
+}
+
+#footer .bottomStripe{
+
+}

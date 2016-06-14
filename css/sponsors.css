@@ -1,0 +1,15 @@
+
+#sponsors img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#sponsors  .backgroundBlack{
+    background: black;
+    height: 100%;
+    float: left;
+}
+
+#sponsors a{
+    text-decoration: none;
+}
