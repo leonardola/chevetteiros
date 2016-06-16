@@ -15,12 +15,12 @@
 
     <div class="secondBanner">
         <div class="smallBanner">
-            <img src="images/race_flag.png">
+            <img src="images/bandeira.jpg">
             <a>EVENTOS</a>
         </div>
         <div class="smallBanner">
-            <img src="images/race_flag.png">
-            <a>EVENTOS</a>
+            <img src="images/fotos.jpg">
+            <a>GALERIA</a>
         </div>
     </div>
 
