@@ -13,7 +13,16 @@
         <img src="images/banner3.png">
     </div>
 
-    <div class="secondBanner"> </div>
+    <div class="secondBanner">
+        <div class="smallBanner">
+            <img src="images/race_flag.png">
+            <a>EVENTOS</a>
+        </div>
+        <div class="smallBanner">
+            <img src="images/race_flag.png">
+            <a>EVENTOS</a>
+        </div>
+    </div>
 
     <p>
         Chevrolet Chevette: <br>
