@@ -1,5 +1,6 @@
-.blueText{
-    color: #34A9CA;
+.redText{
+    color: #D61414;
+    font-weight: 600;
 }
 .centered{
     margin: auto;
@@ -10,10 +11,20 @@
     width: 172px;
 }
 
-#footer a{
-    color: #7d7d7d;
+.footer{
+    background: black;
+    width: 100%;
 }
 
+
+#footer a{
+    color: white;
+    line-height: 23px;
+}
+
+#footer a:hover {
+    color: #D61414;
+}
 #footer .bottomStripe{
 
 }

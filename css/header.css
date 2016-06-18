@@ -25,15 +25,7 @@ body {
         padding: 15px 0;
     }
 }
-
-.navbar{
-    background: white;
-    border-color: #ccc;
-}
-
-body{
-    background: black;
-}
+/*
 
 .navbar a:hover{
     color: black !important;
@@ -42,6 +34,7 @@ body{
 .navbar li.active a{
     color: white !important;
 }
+*/
 
 .navbar-header{
     margin-right: 15px;

@@ -1,6 +1,33 @@
+section .sponsorsDividerImage{
+    width: 100%;
+    height: 50px;
+}
+
+.sponsors .sponsorsDivider{
+    text-align: center;
+    position: relative;
+    background: black;
+    height: 50px;
+}
+
+.sponsors .sponsorsBanner{
+    background: #D61414;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+
+    color: white;
+}
+
+.sponsors .sponsorsBanner h2{
+    line-height: 50px;
+    font-weight: 600;
+}
+
 #sponsors{
     display: flex;
     justify-content: center;
+    background: white;
 }
 
 #sponsors div{
@@ -8,8 +35,8 @@
 }
 
 #sponsors img{
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #sponsors a{

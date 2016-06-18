@@ -14,21 +14,55 @@
     </div>
 
     <div class="secondBanner">
-        <div class="smallBanner">
-            <img src="images/bandeira.jpg">
-            <a>EVENTOS</a>
-        </div>
-        <div class="smallBanner">
-            <img src="images/fotos.jpg">
-            <a>GALERIA</a>
-        </div>
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/fotos.png">
+                <span>GALERIA</span>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/preparacoes.png">
+                <span>PREPARAÇÃO</span>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/bandeira.png">
+                <span class="text">EVENTOS</span>
+            </div>
+        </a>
     </div>
 
-    <p>
+<!--    <p>
         Chevrolet Chevette: <br>
         "A Chevrolet não faria mais um carrinho"<br>
         (Chevrolet, 1973)
-    </p>
+    </p>-->
+
+    <div class="thirdBanner">
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/balao1.png">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/balao2.png">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="smallBanner">
+                <img src="images/balao3.png">
+            </div>
+        </a>
+    </div>
 
 </body>
 
