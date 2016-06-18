@@ -25,16 +25,17 @@ body {
         padding: 15px 0;
     }
 }
-/*
 
-.navbar a:hover{
-    color: black !important;
-}
-
-.navbar li.active a{
+.navbar a{
     color: white !important;
+    font-size: 1.7em;
 }
-*/
+
+.navbar a:hover,
+.navbar li.active a{
+    background: transparent !important;
+    color: #D61414 !important;
+}
 
 .navbar-header{
     margin-right: 15px;
@@ -57,4 +58,14 @@ body {
 
 .basicWidth{
     width: 1100px;
+}
+
+@font-face {
+    font-family: UniviaPro;
+    src: url("/chevetteiros/fonts/fonte%20univia/UniviaPro-Black.otf") format("opentype");
+}
+
+html *
+{
+    font-family: UniviaPro !important;
 }
