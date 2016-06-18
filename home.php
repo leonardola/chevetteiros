@@ -7,10 +7,12 @@
 
 <body>
 
-    <div class="firstBanner cycle-slideshow">
-        <img src="images/banner1.png">
-        <img src="images/banner2.png">
-        <img src="images/banner3.png">
+    <div class="firstBannerWrapper">
+        <div class="firstBanner cycle-slideshow">
+            <img src="images/banner1.png">
+            <img src="images/banner2.png">
+            <img src="images/banner3.png">
+        </div>
     </div>
 
     <div class="secondBanner">
