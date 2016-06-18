@@ -65,3 +65,7 @@
 .thirdBanner a:hover{
     background: #FFEBEE;
 }
+
+.thirdBanner img{
+    margin: auto !important;
+}
