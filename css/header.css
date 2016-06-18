@@ -64,6 +64,10 @@ body {
     font-family: UniviaPro;
     src: url("/chevetteiros/fonts/fonte%20univia/UniviaPro-Black.otf") format("opentype");
 }
+@font-face {
+    font-family: Pacifico;
+    src: url("/chevetteiros/fonts/Pacifico.ttf") format("opentype");
+}
 
 html *
 {
