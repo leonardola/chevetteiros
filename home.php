@@ -65,6 +65,6 @@
 
 <?php
     include "sponsors.html";
-    /*include "siteMap.html";*/
+    include "siteMap.html";
 
 ?>

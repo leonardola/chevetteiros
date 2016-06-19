@@ -30,6 +30,26 @@
 #footer a:hover {
     color: #D61414;
 }
-#footer .bottomStripe{
 
+@media (max-width: 991px) {
+    .categories{
+        display: none;
+    }
+
+    #footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+    #footer img{
+        margin: auto;
+    }
 }
