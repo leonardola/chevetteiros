@@ -7,7 +7,10 @@
 
     <div class="firstBannerWrapper">
         <div class="firstBanner cycle-slideshow">
-            <div class="overlay cycle-overlay"></div>
+            <div class="overlay cycle-overlay">
+                <div></div>
+                <div>A Chevrolet não faria só mais um carrinho <br> (Chevrolet, 1973)</div>
+            </div>
             <img src="images/banner1.png"
                  data-cycle-desc="A Chevrolet não faria só mais um carrinho <br> (Chevrolet, 1973)">
             <img src="images/banner2.png"

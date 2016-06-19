@@ -1,16 +1,18 @@
 .firstBannerWrapper{
     background: gray;
+    max-width: 100%;
 }
 
 .firstBanner {
     width: 1100px;
-    height: 405px;
+    max-width: 100%;
     background-color: white;
     margin: auto;
 }
 
 .firstBanner img{
     width: 1100px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -34,8 +36,8 @@
     width: 1100px;
     margin: auto;
     margin-top: 20px;
-    background: black;
     display: flex;
+    align-items: center;
     height: 172px;
     max-width: 100%;
 }
@@ -49,6 +51,11 @@
     position: relative;
     display: flex;
     margin:auto;
+}
+
+.secondBanner .smallBanner{
+    display: block;
+    height: auto;
 }
 
 .smallBanner img{
@@ -96,8 +103,24 @@
     margin: auto !important;
 }
 
+@media (max-width: 1100px) and (max-height: 1100px) {
 
-@media (max-width: 991px) {
+    .firstBanner .overlay {
+        right: 5%;
+    }
+
+    .firstBanner .overlay * {
+        font-size: 4vw;
+    }
+
+    .secondBanner .smallBanner span{
+        font-size: 3vw;
+        top: 12%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 900px) and (max-height: 900px){
     .firstBanner .overlay{
         right: 5%;
     }

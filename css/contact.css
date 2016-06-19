@@ -61,7 +61,7 @@ textarea{
 }*/
 
 
-@media (max-width: 991px) {
+@media (max-width: 900px) and (max-height: 900px){
     form{
         width: 100%;
         text-align: center;

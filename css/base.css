@@ -7,7 +7,7 @@
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 900px) and (max-height: 900px){
     .margin{
         width: 100%;
         padding-top: 0;
