@@ -11,7 +11,7 @@
 
 .firstBanner img{
     width: 1100px;
-    height: 405px;
+    height: auto;
 }
 
 
@@ -24,7 +24,6 @@
     background: transparent;
 }
 .firstBanner .overlay *{
-
     font-family: Pacifico !important;
     text-shadow: 2px 2px black;
     font-size: 2em;
@@ -38,6 +37,11 @@
     background: black;
     display: flex;
     height: 172px;
+    max-width: 100%;
+}
+
+.secondBanner .smallBanner{
+    background: black;
 }
 
 .smallBanner{
@@ -64,9 +68,12 @@
     color: white;
 }
 
-.smallBanner:hover span{
+.smallBanner:hover span {
     color: black;
+
 }
+/*
+
 
 .thirdBanner{
     width: 1100px;
@@ -87,4 +94,64 @@
 
 .thirdBanner img{
     margin: auto !important;
+}*/
+
+
+@media (max-width: 991px) {
+    .firstBanner .overlay{
+        right: 5%;
+    }
+
+    .firstBanner .overlay * {
+        font-size: 4vw;
+    }
+
+    .firstBanner{
+        max-width: 100%;
+        height:auto ;
+    }
+    .firstBanner img{
+        max-width: 100%;
+        height:auto;
+    }
+
+    .secondBanner{
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+
+
+    .secondBanner a{
+        min-width: 100%;
+    }
+
+    .secondBanner .smallBanner{
+        height: auto;
+        display: block;
+    }
+
+    .secondBanner .smallBanner img{
+        margin:auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .secondBanner .smallBanner span{
+        font-size: 9vw;
+        top: 12%;
+        left: 9%;
+    }
+
+
+    .thirdBanner .smallBanner{
+        height: auto;
+    }
+
+
+    .thirdBanner .smallBanner img{
+        margin-left: 3px;
+        margin-right: 0px;
+    }
+
 }

@@ -5,17 +5,15 @@
 ?>
 <link rel="stylesheet" type="text/css" href="css/home.css">
 
-<body>
-
     <div class="firstBannerWrapper">
         <div class="firstBanner cycle-slideshow">
             <div class="overlay cycle-overlay"></div>
             <img src="images/banner1.png"
                  data-cycle-desc="A Chevrolet não faria só mais um carrinho <br> (Chevrolet, 1973)">
             <img src="images/banner2.png"
-                 data-cycle-desc="Chevette. Você tem toda razão de ter um <br> (Chevrolet, 1973)">
-            <img src="images/banner3.png"
                  data-cycle-desc="Chevette. Vencedor de ponta a ponta <br> (Chevrolet, 1973)">
+            <img src="images/banner3.png"
+                 data-cycle-desc="Chevette. Você tem toda razão de ter um <br> (Chevrolet, 1973)">
         </div>
     </div>
 
@@ -43,12 +41,6 @@
         </a>
     </div>
 
-<!--    <p>
-        Chevrolet Chevette: <br>
-        "A Chevrolet não faria mais um carrinho"<br>
-        (Chevrolet, 1973)
-    </p>-->
-
     <div class="thirdBanner">
 
         <a href="#">
@@ -70,11 +62,9 @@
         </a>
     </div>
 
-</body>
-
 
 <?php
-    include "sponsors.html";
+/*    include "sponsors.html";
     include "siteMap.html";
 
-?>
+*/?>
