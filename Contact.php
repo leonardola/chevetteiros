@@ -19,10 +19,10 @@
         <form>
 
             <h1>Contato</h1>
-            <p>
+            <!--<p>
                 Entre em contato conosco para mais informações.
                 chevasctba@yahoo.com.br
-            </p>
+            </p>-->
 
             <div>
                 <input class="keyboard" name="name" placeholder="Nome *" type="text">
@@ -32,14 +32,42 @@
                 <input class="keyboard" name="email" placeholder="Email *">
                 <img class="icon" src="https://mottie.github.io/Keyboard/docs/css/images/keyboard.png" />
             </div>
-            <br>
             <div>
-                <textarea class="keyboard" cols="50" rows="5" placeholder="Escreva aqui sua mensagem *"></textarea>
+                <textarea class="keyboard" cols="20" rows="5" placeholder="Escreva aqui sua mensagem *"></textarea>
                 <img class="icon" src="https://mottie.github.io/Keyboard/docs/css/images/keyboard.png" />
             </div>
-            <br>
             <input type="submit">
         </form>
     </div>
 
 </body>
+<!--
+
+<div class="container-fluid">
+    <div class="text-center">
+        <h1>Contato</h1>
+        <p>
+            Entre em contato conosco para mais informações.
+            chevasctba@yahoo.com.br
+        </p>
+    </div>
+
+    <form class="form-horizontal" role="form">
+        <div class="row row-centered">
+            <div class="col-sm-6 col-lg-6 col-centered">
+                <div class="form-group">
+                    <input type="nome" class="keyboard form-control" name="name" placeholder="Nome *" type="text">
+                    <img class="icon" src="https://mottie.github.io/Keyboard/docs/css/images/keyboard.png" />
+                </div>
+            </div>
+        </div>
+        <div class="row row-centered">
+            <div class="col-sm-6 col-lg-6 col-centered">
+                <div class="form-group">
+                    <input type="nome" class="keyboard form-control" name="name" placeholder="Nome *" type="text">
+                    <img class="icon" src="https://mottie.github.io/Keyboard/docs/css/images/keyboard.png" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>-->

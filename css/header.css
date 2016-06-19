@@ -3,6 +3,12 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.navbar-brand img{
+    display: block;
+}
+.navbar-brand p{
+    display: none;
+}
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -14,16 +20,6 @@ body {
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
-}
-
-@media(min-width:768px) {
-    body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
-    }
 }
 
 .navbar a{
@@ -43,6 +39,10 @@ body {
 
 .navbar-brand img{
     height: 75px;
+}
+
+.navbarText{
+    display: none;
 }
 
 .navbar-brand{
@@ -74,6 +74,15 @@ html *
     font-family: UniviaPro !important;
 }
 
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
 
 @media (max-width: 991px) {
     .navbar-header {
@@ -111,4 +120,21 @@ html *
     .collapsing {
         overflow: hidden!important;
     }
+
+    .navbar-brand img{
+        display: none;
+    }
+    .navbarText{
+        display: block;
+        font-size: 1.5em !important;
+        line-height: 52px !important;
+    }
+    .logo{
+        display: none;
+    }
+
+    .navbar-brand p{
+        display: block !important;
+    }
+
 }
