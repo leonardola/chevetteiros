@@ -72,8 +72,6 @@
     color: black;
 
 }
-/*
-
 
 .thirdBanner{
     width: 1100px;
@@ -81,11 +79,13 @@
     margin: auto;
     margin-top: 60px;
     display: flex;
+    max-width: 100%;
 }
 
 .thirdBanner a{
     margin: auto;
     width: 33%;
+    flex-wrap: wrap;
 }
 
 .thirdBanner a:hover{
@@ -94,7 +94,7 @@
 
 .thirdBanner img{
     margin: auto !important;
-}*/
+}
 
 
 @media (max-width: 991px) {
@@ -143,15 +143,24 @@
         left: 9%;
     }
 
-
+    .thirdBanner {
+        max-width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
     .thirdBanner .smallBanner{
         height: auto;
+        display: flex;
+    }
+
+    .thirdBanner a{
+        width: 100% !important;
     }
 
 
     .thirdBanner .smallBanner img{
-        margin-left: 3px;
-        margin-right: 0px;
+        margin: auto;
+        max-height: none;
     }
 
 }
