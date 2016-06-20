@@ -1,0 +1,28 @@
+p{
+    text-align: center;
+}
+
+.sizeWrapper div{
+    float: right;
+    font-size: 20px;
+    margin-left: 2px;
+    border: 1px solid black;
+    width: 37px;
+    height: 28px;
+    text-align: center;
+    border-radius: 3px;
+}
+.sizeWrapper div:hover{
+    background: #FFCDD2;
+}
+
+.sizeWrapper{
+    width: 823px;
+    height: 48px;
+}
+
+@media (max-width: 900px) and (max-height: 900px){
+    .sizeWrapper{
+        display: none;
+    }
+}

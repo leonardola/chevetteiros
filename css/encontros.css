@@ -1,0 +1,30 @@
+.encontros {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.encontros p {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
+}
+
+.encontros img {
+    width: 75%;
+}
+
+@media (max-width: 900px) and (max-height: 900px) {
+
+    .meetingsSeparator {
+        height: 50px;
+    }
+
+    .encontros p {
+        font-size: 0.9em;
+    }
+
+    .encontros img {
+        width: 100%;
+    }
+}
+

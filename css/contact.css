@@ -37,30 +37,6 @@ textarea{
     padding: 10px;
 }
 
-
-
-/*
- textos = #D61414
-
-
- */
-/*
-
-
-
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    !* reset the text-align *!
-    text-align:left;
-    !* inline-block space fix *!
-    margin-right:-4px;
-}*/
-
-
 @media (max-width: 900px) and (max-height: 900px){
     form{
         width: 100%;

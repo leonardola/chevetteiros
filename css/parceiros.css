@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.quotation img{
+    width: 100px;
+}
+
+.sponsorsDivider{
+    display: none;
+}
