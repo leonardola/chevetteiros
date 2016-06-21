@@ -17,6 +17,6 @@ $(function () {
     });
 
     $(".originalText").click(function () {
-        $("p").css('font-size', "14px");
+        $("p").css('font-size', "19px");
     });
 });

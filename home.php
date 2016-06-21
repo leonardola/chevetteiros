@@ -4,7 +4,7 @@
 
 ?>
 <link rel="stylesheet" type="text/css" href="css/home.css">
-
+<title>Home | Chevetteiros Curitiba</title>
     <div class="firstBannerWrapper">
         <div class="firstBanner cycle-slideshow">
             <div class="overlay cycle-overlay">

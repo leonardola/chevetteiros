@@ -25,7 +25,7 @@ body{
 }
 
 .separator{
-    height: 300px;
+    height: 370px;
 }
 
 #footer{
@@ -80,7 +80,7 @@ body{
     }
 
     .separator{
-        height: 100px;
+        height: 150px;
     }
 
     #footer img{

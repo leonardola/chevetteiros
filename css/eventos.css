@@ -1,6 +1,12 @@
+strong{
+    color: black;
+}
+
 p{
     text-align: center;
     color: grey;
+    line-height: 37px;
+    font-size: 19px;
 }
 
 .sizeWrapper div{
@@ -46,10 +52,6 @@ p{
 @media (max-width: 900px) and (max-height: 900px){
     .sizeWrapper{
         display: none;
-    }
-
-    .margin{
-        padding-top: 90px;
     }
 
     .eventos img{

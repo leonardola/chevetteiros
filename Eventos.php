@@ -1,9 +1,14 @@
 <?php
 include "header.html";
 ?>
+    <title>Eventos | Chevetteiros Curitiba</title>
+
     <link rel="stylesheet" type="text/css" href="css/eventos.css">
     <script src="js/eventos.js" type="application/javascript"></script>
     <body>
+
+        <div class="headerSeparator"></div>
+
         <div class="margin eventos">
 
             <div class="sizeWrapper">
@@ -16,11 +21,9 @@ include "header.html";
 
                 <h1>Track Day</h1>
                 <p>
-                    Mussum Ipsum, cacilds vidis litro abertis. <br>
-                    A ordem dos tratores não altera o pão duris Atirei o pau no gatis, <br>
-                    per gatis num morreus.Não sou faixa preta cumpadi, <br>
-                    sou preto inteiris, inteiris.Mais vale um bebadis conhecidiss, <br>
-                    que um alcoolatra anonimiss.
+                    <strong>Track Days</strong> são eventos que permitem qualquer um se divertir na pista. <br>
+                    O <strong>Clube Chevetteiros de Curitiba</strong> ajuda a promover eventos como este em varias ocasiões durante o ano.<br>
+                    Traga seu carro para a pista, junte-se a nós e <strong>divirta-se</strong> muito <br>
                 </p>
             </div>
 
@@ -40,11 +43,9 @@ include "header.html";
             <div class="text-center">
                 <h1>Exposições</h1>
                 <p>
-                    Mussum Ipsum, cacilds vidis litro abertis. <br>
-                    A ordem dos tratores não altera o pão duris Atirei o pau no gatis, <br>
-                    per gatis num morreus.Não sou faixa preta cumpadi, <br>
-                    sou preto inteiris, inteiris.Mais vale um bebadis conhecidiss, <br>
-                    que um alcoolatra anonimiss.
+                    <strong>A exposição</strong> é o momento de mostrar o bom gosto e o esforço investidos, <br>
+                    nestes eventos o <strong>Clube Chevetteiros de Curitiba</strong> promove a união e confraternização entre seus participantes <br>
+
                 </p>
             </div>
         </div>

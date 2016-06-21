@@ -22,3 +22,9 @@
     -ms-filter: invert(100%);
     filter: invert(100%);
 }
+@media (max-width: 900px) and (max-height: 900px) {
+
+    .headerSeparator {
+        height: 70px;
+    }
+}

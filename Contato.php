@@ -2,6 +2,8 @@
     include "header.html";
 ?>
 
+    <title>Contato | Chevetteiros Curitiba</title>
+
 <link rel="stylesheet" type="text/css" href="css/contact.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="css/keyboard.css">
@@ -15,14 +17,15 @@
 <script type="text/javascript" src="js/keyboard.js"></script>
 
 <body>
-    <div class="margin">
+    <div class="headerSeparator"></div>
+    <div class="margin row">
         <form>
 
             <h1>Contato</h1>
-            <!--<p>
-                Entre em contato conosco para mais informações.
+            <p>
+                Entre em contato conosco para mais informações.<br>
                 chevasctba@yahoo.com.br
-            </p>-->
+            </p>
 
             <div>
                 <input class="keyboard" name="name" placeholder="Nome *" type="text">

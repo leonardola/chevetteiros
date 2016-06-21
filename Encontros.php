@@ -1,11 +1,12 @@
 <?php
 include "header.html";
 ?>
+    <title>Encontros | Chevetteiros Curitiba</title>
     <link rel="stylesheet" type="text/css" href="css/encontros.css">
 
     <body>
 
-        <div class="meetingsSeparator"></div>
+        <div class="headerSeparator"></div>
 
         <div class="encontros margin">
             <h1 class="text-center">Encontros</h1>

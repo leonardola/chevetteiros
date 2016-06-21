@@ -1,6 +1,7 @@
 div.encontros {
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
+
 }
 
 .encontros p {
@@ -16,12 +17,8 @@ div.encontros {
 
 @media (max-width: 900px) and (max-height: 900px) {
 
-    .meetingsSeparator {
-        height: 50px;
-    }
-
     .encontros p {
-        font-size: 0.9em;
+        font-size: 19px;
     }
 
     .encontros img {

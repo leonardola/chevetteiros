@@ -2,7 +2,13 @@ $(document).ready(function () {
 
     var type = window.location.hash.substr(1);
     $("li").removeClass('active');
-    $("li."+type).addClass('active');
+
+    if (type) {
+        $("li."+type).addClass('active');
+    }else{
+        $("li.home").addClass('active');
+    }
+
 
 
     $(".nav a").on("click", function () {
