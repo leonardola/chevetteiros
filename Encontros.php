@@ -12,7 +12,7 @@ include "header.html";
             <h1 class="text-center">Encontros</h1>
             <br>
             <p>
-                O clube de Chevetteiros de Curitia organiza encontros semanais de confraternização.<br><br>
+                O clube de Chevetteiros de Curitiba organiza encontros semanais de confraternização.<br><br>
                 Venha compartilhar suas histórias e tomar uma cerveja conosco.
             </p>
 
